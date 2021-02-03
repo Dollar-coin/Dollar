@@ -1,0 +1,4 @@
+qt/qt_libdollarqt_a-qrc_dollar.o: qt/qrc_dollar.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

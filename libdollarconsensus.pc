@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Dollar Core consensus library
+Description: Library for the Dollar consensus protocol.
+Version: 1.0.0
+Libs: -L${libdir} -ldollarconsensus
+Cflags: -I${includedir}
+Requires.private: libcrypto

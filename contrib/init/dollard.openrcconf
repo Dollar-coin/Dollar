@@ -1,0 +1,33 @@
+# /etc/conf.d/dollard: config file for /etc/init.d/dollard
+
+# Config file location
+#DOLLARD_CONFIGFILE="/etc/dollar/dollar.conf"
+
+# What directory to write pidfile to?  (created and owned by $DOLLARD_USER)
+#DOLLARD_PIDDIR="/var/run/dollard"
+
+# What filename to give the pidfile
+#DOLLARD_PIDFILE="${DOLLARD_PIDDIR}/dollard.pid"
+
+# Where to write dollard data (be mindful that the blockchain is large)
+#DOLLARD_DATADIR="/var/lib/dollard"
+
+# User and group to own dollard process
+#DOLLARD_USER="dollar"
+#DOLLARD_GROUP="dollar"
+
+# Path to dollard executable
+#DOLLARD_BIN="/usr/bin/dollard"
+
+# Nice value to run dollard under
+#DOLLARD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#DOLLARD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for dollard to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+DOLLARD_SIGTERM_TIMEOUT=60
