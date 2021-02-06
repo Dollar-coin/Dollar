@@ -78,7 +78,7 @@ Dollar cryptocurrency was created in order to unify the Dollar as a basic curren
 
 People believe in Dollar as a world known currency, it enforces its power from its value, common example is the United States Dollar, but the issue here is that no one would know if the US Dollar would keep its value forever.
 Dollar Cryptocurrency has a limited number of coins which was set to 73400000 coins, no more and no less, at least you would know how many coins are in existence.
-The main goal of the Dollar cryptocurrency is to keep +50% of its value in comparison with the actual physical US Dollar. Example: 1 DOLLAR = 2 USD.
+The main goal of the Dollar cryptocurrency is to keep +100% of its value in comparison with the actual physical US Dollar. Example: 1 DOLLAR = 2 USD.
 DOLLAR Cryptocurrency is based on 256-SHA bitcoin encryption Proof-of-Work algorithm, a block is generated every 5 minutes, block halving would occur every 510000 blocks. A miner would get 70 DOLLAR as a reward which can be spent after 71 confirmations.
 
 # Contribution
